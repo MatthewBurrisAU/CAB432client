@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Background for all pages */
+.homeBG, .notFoundBG {
+  background-image: url("./images/grookey.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* HOME PAGE STYLING */
+
+.homeTitleSig, .homeTitle, .homeSource {
+  font-weight: 700;
+  text-align: center;
+}
+
+.homeSource {
+  padding-top: 5%;
+}
+
+.homeButton {
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.homeTitle {
+  padding-top: 10%;
+}
+
+.homeTopSpacer {
+  padding-top: 10%;
+}
+
+.home {
+  background-color: white;
+  opacity: 0.85;
+  padding-top: 5px;
+  margin: auto;
+  padding-left: 5px;
+  float: top;
+  width: 50%;
+  height: 50%;
+  border-radius: 30px 30px 30px 30px
+}
+
+/*COLOUR STYLING */
+
+.monTitle {
+  text-align: center;
+}
+
+.monDropdown {
+  padding-left: 47%;
+  float: top;
+}
+
+.monList {
+  text-align: center;
+}
+
+/*CHOSEN POKEMON STYLING */
+
+.cardTitle {
+  text-align: center;
+}
+
+/*NOT FOUND STYLING */
+.notFound {
+  background-color: white;
+  opacity: 0.95;
+  padding-top: 5px;
+  margin: auto;
+  padding-left: 5px;
+  float: top;
+  width: 50%;
+  height: 40%;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.notFoundText {
+  text-align: center;
+  padding-top: 15%;
+}
