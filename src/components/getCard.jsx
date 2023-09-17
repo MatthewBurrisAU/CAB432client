@@ -1,6 +1,6 @@
 export default function getCards(name){
 
-    const API_URL = process.env.REACT_APP_SERVER
+    const API_URL = window.location.host
     const url = `${API_URL}/card?pokemon=` + name;
 
     return fetch(url)

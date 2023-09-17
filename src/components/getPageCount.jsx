@@ -1,6 +1,6 @@
 export default function getPageCount(){
 
-    const API_URL = process.env.REACT_APP_SERVER;
+    const API_URL = window.location.host;
     const url = `${API_URL}`
 
     return fetch(url)

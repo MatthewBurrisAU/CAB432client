@@ -1,6 +1,6 @@
 export default function getPokemon(id){
 
-    const API_URL = process.env.REACT_APP_SERVER;
+    const API_URL = window.location.host;
     const url = `${API_URL}/getpokemon?id=` + id
 
     return fetch(url)

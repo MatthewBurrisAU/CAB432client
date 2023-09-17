@@ -1,7 +1,7 @@
 
 export default function getColours(){
 
-    const API_URL = process.env.REACT_APP_SERVER;
+    const API_URL = window.location.host;
     const url = `${API_URL}/getcolours`
 
     return fetch(url)

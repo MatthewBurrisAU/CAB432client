@@ -19,7 +19,7 @@ export default function Home() {
           <Button 
             size="lg"
             variant="secondary"
-            onClick={() => {window.location.href = "/pick-a-colour"}}
+            onClick={() => {window.location.host = "/pick-a-colour"}}
             ><b>Get Started</b>
           </Button>
         </div>
