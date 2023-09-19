@@ -1,7 +1,7 @@
 
 export default function getColours(){
 
-    const API_URL = window.location.host;
+    const API_URL = `http://` + window.location.hostname + `:3001`;
     const url = `${API_URL}/getcolours`
 
     return fetch(url)
